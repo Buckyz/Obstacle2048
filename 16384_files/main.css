@@ -117,7 +117,7 @@ hr {
   margin-bottom: 30px; }
 
 .container {
-  width: 500px;
+  width: 621px;
   margin: 0 auto; }
 
 @-webkit-keyframes fade-in {
@@ -151,11 +151,12 @@ hr {
   -moz-user-select: none;
   background: #bbada0;
   border-radius: 6px;
-  width: 500px;
-  height: 500px;
+  width: 621px;
+  height: 621px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
   .game-container .game-message {
     display: none;
     position: absolute;
@@ -170,15 +171,18 @@ hr {
     -moz-animation: fade-in 800ms ease 1200ms;
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both; }
+
     .game-container .game-message p {
       font-size: 60px;
       font-weight: bold;
       height: 60px;
       line-height: 60px;
       margin-top: 222px; }
+
     .game-container .game-message .lower {
       display: block;
       margin-top: 59px; }
+
     .game-container .game-message a {
       display: inline-block;
       background: #8f7a66;
@@ -189,9 +193,11 @@ hr {
       height: 40px;
       line-height: 42px;
       margin-left: 9px; }
+
     .game-container .game-message.game-won {
       background: rgba(237, 194, 46, 0.5);
       color: #f9f6f2; }
+
     .game-container .game-message.game-won, .game-container .game-message.game-over {
       display: block; }
 
@@ -218,6 +224,14 @@ hr {
   .grid-cell:last-child {
     margin-right: 0; }
 
+.grid-cell-disabled {
+  background: rgba(17, 27, 37, 0.35);
+}
+
+.grid-cell:last-child {
+  margin-right: 0;
+}
+
 .tile-container {
   position: absolute;
   z-index: 2; }
@@ -242,6 +256,10 @@ hr {
     position: absolute;
     left: 0px;
     top: 364px; }
+  .tile.tile-position-1-5 {
+    position: absolute;
+    left: 0px;
+    top: 485px; }
   .tile.tile-position-2-1 {
     position: absolute;
     left: 121px;
@@ -258,6 +276,10 @@ hr {
     position: absolute;
     left: 121px;
     top: 364px; }
+  .tile.tile-position-2-5 {
+    position: absolute;
+    left: 121px;
+    top: 485px; }
   .tile.tile-position-3-1 {
     position: absolute;
     left: 243px;
@@ -274,10 +296,14 @@ hr {
     position: absolute;
     left: 243px;
     top: 364px; }
+  .tile.tile-position-3-5 {
+    position: absolute;
+    left: 243px;
+    top: 364px; }
   .tile.tile-position-4-1 {
     position: absolute;
     left: 364px;
-    top: 0px; }
+    top: 485px; }
   .tile.tile-position-4-2 {
     position: absolute;
     left: 364px;
@@ -290,6 +316,31 @@ hr {
     position: absolute;
     left: 364px;
     top: 364px; }
+  .tile.tile-position-4-5 {
+    position: absolute;
+    left: 364px;
+    top: 485px; }
+  .tile.tile-position-5-1 {
+    position: absolute;
+    left: 485px;
+    top: 0px; }
+  .tile.tile-position-5-2 {
+    position: absolute;
+    left: 485px;
+    top: 121px; }
+  .tile.tile-position-5-3 {
+    position: absolute;
+    left: 485px;
+    top: 243px; }
+  .tile.tile-position-5-4 {
+    position: absolute;
+    left: 485px;
+    top: 364px; }
+  .tile.tile-position-5-5 {
+    position: absolute;
+    left: 485px;
+    top: 364px; }
+  
 
 .tile {
   border-radius: 3px;
